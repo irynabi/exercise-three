@@ -1,3 +1,5 @@
+
+
 import WeatherCard from "@/app/components/WeatherCard";
 import Header from "../app/components/Header";
 import "../app/globals.css";
@@ -25,13 +27,11 @@ export const getStaticPaths = async () => {
 
 
 export default function Home({weatherData}) {
-    console.log(weatherData);
     if (!weatherData) return null;
     return (
         <>
-        <Header />
+        <Header/>
         <main>
-        <h1> Weather App </h1>
             <WeatherCard cityName = {weatherData.name}
                     weatherType = {weatherData.weather[0].main}
                     weatherDescription = {weatherData.weather[0].description}

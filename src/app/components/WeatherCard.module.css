@@ -1,0 +1,29 @@
+.WeatherCardWrapper{
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px rgb(197, 197, 197);
+    padding: 10px;
+}
+
+.WeatherCardImage{
+    height:auto;
+    width: 200px;
+    margin: 50px;
+    margin-left: 600px
+}
+
+.WeatherCardDetails{
+    background-color: rgba(240, 248, 255, 0.558);
+    padding: 10px
+}
+
+.WeatherCardImage svg{
+    height: auto;
+    width: 100%;
+}
+
+.mainBar{
+    height: auto;
+    width: 100%;
+}
