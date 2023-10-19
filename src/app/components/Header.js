@@ -9,7 +9,7 @@ const Header = () => (
     <header>
         <h1><Link href="#">Weather App</Link></h1>
         <div class="dropdown">
-            <button class="dropbtn"><FontAwesomeIcon icon={faGlobe}/></button>
+            <button class="dropbtn"><h1>Find a Place</h1></button>
         <div class="dropdown-content">
             <a><Link href="/Italy"> Italy</Link></a>
             <a><Link href="/New York"> New York </Link></a>

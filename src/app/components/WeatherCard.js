@@ -4,6 +4,7 @@ import WeatherIcon from "./WeatherIcon";
 
 const WeatherCard = ({cityName, weatherType, weatherDescription, currentTemperature, feelsLike, highTemperature, lowTemperature, cloudiness, humidity, windSpeed}) => (
 <div>
+    
     <div className = {styles.WeatherCardWrapper}>
         <div className = {styles.WeatherCardImage}>
             <WeatherIcon weatherType={weatherType}/>
